@@ -925,6 +925,10 @@ video {
   background-image: url('/img/bg2.svg');
 }
 
+.bg-\[url\(\'https\:\/\/res\.cloudinary\.com\/eiroro\/image\/upload\/v1677147572\/rescuemed\/bg2_gtxyju\.svg\'\)\] {
+  background-image: url('https://res.cloudinary.com/eiroro/image/upload/v1677147572/rescuemed/bg2_gtxyju.svg');
+}
+
 .bg-cover {
   background-size: cover;
 }
