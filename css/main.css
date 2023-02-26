@@ -602,6 +602,10 @@ video {
   margin-right: 5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -840,6 +844,31 @@ video {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.border-primaryRed {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 41 41 / var(--tw-border-opacity));
 }
 
 .bg-\[\#730000\] {
@@ -1157,6 +1186,32 @@ video {
   mix-blend-mode: multiply;
 }
 
+.hover\:border-\[2px\]:hover {
+  border-width: 2px;
+}
+
+.hover\:border-\[12px\]:hover {
+  border-width: 12px;
+}
+
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
+.hover\:text-primaryRed:hover {
+  --tw-text-opacity: 1;
+  color: rgb(251 41 41 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -1218,6 +1273,12 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(3.5rem * var(--tw-space-x-reverse));
     margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:text-5xl {
